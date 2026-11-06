@@ -1,33 +1,36 @@
 {
-  "product": "SuisuiFitter",
-  "revision": "2026.11.04-r2",
-  "sha256": "90823366febb829af0ffe1eff4ba8301e19a622efbf2945050083d54f99b0566",
+  "product": "FIT STUDIO",
+  "file": "FitStudio.exe",
+  "sha256": "fe4f82054de3b59696c67c1a2294e920c731f2c57c6d543a83d0e70a03a75bb8",
   "size_bytes": 59650048,
-  "static_markers": {
-    "VECTOR / CANDIDATE ASSESSMENT": true,
-    "Protein identity": true,
-    "Infection rate": true,
-    "Lethality": true,
-    "biochemical": true
+  "build": "2026.11.06-branding",
+  "engine_basis": "2026.11.04",
+  "file_properties": {
+    "FileDescription": "FIT STUDIO",
+    "FileVersion": "0.0.0.0",
+    "InternalName": "FitStudio.exe",
+    "LegalCopyright": " ",
+    "OriginalFilename": "FitStudio.exe",
+    "ProductVersion": "0.0.0.0",
+    "Assembly Version": "0.0.0.0"
   },
-  "report_generation": {
-    "returncode": 0,
-    "sha256": "91c22cc0f546511203f4c15e7176902f2e790cd8390e05306669c5464b814f6a",
-    "default_ui_entry": false
-  },
-  "default_fit": {
-    "returncode": 0,
-    "result_hash": "39412d13152ea4aacb44a26989e944ee77f75918fd00e9800c55c48aa9eb31f1",
-    "cord_hash": "f900ac06fdc36499014a38dabe9f60b58a3c92520eec203aaa55dbcd5419a7d0",
-    "adoption": "HOLD"
-  },
+  "main_output_hash": "39412d13152ea4aacb44a26989e944ee77f75918fd00e9800c55c48aa9eb31f1",
+  "cord_output_hash": "f900ac06fdc36499014a38dabe9f60b58a3c92520eec203aaa55dbcd5419a7d0",
+  "default_execution_exit": 0,
+  "report_generation_exit": 0,
+  "report_terms_present": true,
   "defender": {
     "returncode": 0,
     "no_threats": true,
-    "definition_version": "1.463.144.0"
+    "signature": "1.463.144.0"
   },
-  "content": "Synthetic candidate-assessment report and inert fixture terminology.",
-  "required_inputs": "Compatible local Suisui workspace and data.",
   "digital_signature": "UNSIGNED",
-  "newer_motion_tests_included": false
+  "raw_public_name_search": {
+    "utf8_old_brand_occurrences": 0,
+    "utf16_old_brand_occurrences": 0
+  },
+  "compatibility": "Archived input profile identifiers remain inside compressed runtime data.",
+  "runtime": "Bundled Python 3.11 x64",
+  "workspace_variable": "FITSTUDIO_WORKSPACE",
+  "new_motion_tests_included": false
 }
