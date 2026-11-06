@@ -1,0 +1,35 @@
+{
+  "product": "SuisuiFitter",
+  "build_date": "2026-11-04",
+  "published_variant": "preserved FINAL_EXE",
+  "platform": "Windows x64",
+  "file": "SuisuiFitter.exe",
+  "size_bytes": 59737600,
+  "sha256": "e8ee5aba72dd248bd2b213b899fd0d51fc6dfe0f8f0820d06d0f1e0ff4c46d95",
+  "output_equivalence": {
+    "recorded_jobs": 5,
+    "byte_exact_arrays": true,
+    "original_decisions_preserved": true,
+    "verification_basis": "Preserved local verification record for this exact build"
+  },
+  "digital_signature": "UNSIGNED",
+  "runtime": "Bundled Python 3.11 x64",
+  "required_inputs": "Compatible Suisui workspace, pinned current_suisui.json, profiles and body/garment input files",
+  "newer_motion_tests_included": false,
+  "defender": [
+    {
+      "file": "SuisuiFitter.exe",
+      "returncode": 0,
+      "no_threats": true,
+      "signature": "1.463.144.0",
+      "sha256_after": "e8ee5aba72dd248bd2b213b899fd0d51fc6dfe0f8f0820d06d0f1e0ff4c46d95"
+    },
+    {
+      "file": "fit_core.cp311-win_amd64.pyd",
+      "returncode": 0,
+      "no_threats": true,
+      "signature": "1.463.144.0",
+      "sha256_after": "109774aecd815f15368da228f874e8c5b95f7e1d6fe68c22c02c6bdfc39afaf8"
+    }
+  ]
+}
