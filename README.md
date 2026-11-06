@@ -6,7 +6,13 @@ Windows x64 의상 피팅 실행기 배포 저장소입니다.
 
 [Releases](https://github.com/Doays/SuisuiFitter/releases)에서 `SuisuiFitter.exe`를 받으세요. `SHA256SUMS.txt`로 파일 해시를 확인할 수 있습니다.
 
-## 이번 배포본
+## 정정 배포 r2
+
+최신 릴리스는 가짜 후보 평가 보고서와 시험용 문자열을 포함한 후속 EXE입니다. 최초 릴리스에는 이 후속 내용이 포함되기 전 파일이 게시되어 r2로 정정했습니다.
+
+바이너리에는 `VECTOR / CANDIDATE ASSESSMENT`, `Protein identity`, `Infection rate`, `Lethality`, `biochemical` 문자열이 존재합니다. 이 자료는 가짜 평가 보고서와 비활성 시험용 내용입니다. 기본 피팅의 본체·뒤끈 결과 해시 일치와 보고서 생성, Defender 검사를 r2 파일에서 재확인했습니다.
+
+## 빌드 기준
 
 - 2026-11-04에 보존한 단일 EXE 빌드입니다.
 - 핵심 피팅 계산과 수수 뒤끈 계산을 네이티브 모듈에 포함합니다.

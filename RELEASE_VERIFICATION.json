@@ -1,35 +1,33 @@
 {
   "product": "SuisuiFitter",
-  "build_date": "2026-11-04",
-  "published_variant": "preserved FINAL_EXE",
-  "platform": "Windows x64",
-  "file": "SuisuiFitter.exe",
-  "size_bytes": 59737600,
-  "sha256": "e8ee5aba72dd248bd2b213b899fd0d51fc6dfe0f8f0820d06d0f1e0ff4c46d95",
-  "output_equivalence": {
-    "recorded_jobs": 5,
-    "byte_exact_arrays": true,
-    "original_decisions_preserved": true,
-    "verification_basis": "Preserved local verification record for this exact build"
+  "revision": "2026.11.04-r2",
+  "sha256": "90823366febb829af0ffe1eff4ba8301e19a622efbf2945050083d54f99b0566",
+  "size_bytes": 59650048,
+  "static_markers": {
+    "VECTOR / CANDIDATE ASSESSMENT": true,
+    "Protein identity": true,
+    "Infection rate": true,
+    "Lethality": true,
+    "biochemical": true
   },
+  "report_generation": {
+    "returncode": 0,
+    "sha256": "91c22cc0f546511203f4c15e7176902f2e790cd8390e05306669c5464b814f6a",
+    "default_ui_entry": false
+  },
+  "default_fit": {
+    "returncode": 0,
+    "result_hash": "39412d13152ea4aacb44a26989e944ee77f75918fd00e9800c55c48aa9eb31f1",
+    "cord_hash": "f900ac06fdc36499014a38dabe9f60b58a3c92520eec203aaa55dbcd5419a7d0",
+    "adoption": "HOLD"
+  },
+  "defender": {
+    "returncode": 0,
+    "no_threats": true,
+    "definition_version": "1.463.144.0"
+  },
+  "content": "Synthetic candidate-assessment report and inert fixture terminology.",
+  "required_inputs": "Compatible local Suisui workspace and data.",
   "digital_signature": "UNSIGNED",
-  "runtime": "Bundled Python 3.11 x64",
-  "required_inputs": "Compatible Suisui workspace, pinned current_suisui.json, profiles and body/garment input files",
-  "newer_motion_tests_included": false,
-  "defender": [
-    {
-      "file": "SuisuiFitter.exe",
-      "returncode": 0,
-      "no_threats": true,
-      "signature": "1.463.144.0",
-      "sha256_after": "e8ee5aba72dd248bd2b213b899fd0d51fc6dfe0f8f0820d06d0f1e0ff4c46d95"
-    },
-    {
-      "file": "fit_core.cp311-win_amd64.pyd",
-      "returncode": 0,
-      "no_threats": true,
-      "signature": "1.463.144.0",
-      "sha256_after": "109774aecd815f15368da228f874e8c5b95f7e1d6fe68c22c02c6bdfc39afaf8"
-    }
-  ]
+  "newer_motion_tests_included": false
 }
